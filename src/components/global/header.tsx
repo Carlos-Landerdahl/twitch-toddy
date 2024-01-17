@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { BsArrowUpRight, BsTwitch } from 'react-icons/bs'
+import { BsTwitch } from 'react-icons/bs'
+import { MdArrowOutward } from 'react-icons/md'
 
 export default function Header() {
   return (
@@ -14,10 +15,10 @@ export default function Header() {
           <ul className="flex gap-6 text-sm items-center font-bold">
             <li className="text-headerLink hover:text-textHover transition ease-in-out">
               <Link
-                href="https://www.twitch.tv/todynnpjl"
+                href="https://www.twitch.tv/todynnpjl/videos?filter=default"
                 className="flex gap-1"
               >
-                Gravações <BsArrowUpRight size={10} />
+                Gravações <MdArrowOutward size={10} />
               </Link>
             </li>
             <li className="text-white bg-twitchBg rounded p-2 hover:bg-twitchBg/80 transition-all ease-in-out">
