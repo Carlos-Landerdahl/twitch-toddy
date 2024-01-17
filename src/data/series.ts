@@ -22,7 +22,7 @@ export const seriesData: Serie[] = [
   },
   {
     id: '2',
-    title: 'DE FÉRIAS COM O EX',
+    title: 'FÉRIAS COM O EX',
     videos: [
       { videoId: 'K8too_LSCzM', title: 'Episódio 1' },
       { videoId: 'ltn_EXQttro', title: 'Episódio 2' },

@@ -11,8 +11,9 @@ interface SerieComponentProps {
 const SerieComponent: React.FC<SerieComponentProps> = ({ serie }) => {
   return (
     <div>
-      <h2 className="font-bold flex items-center gap-1">
-        <span className="animate-pulse uppercase">(+18)</span> {serie.title}
+      <h2 className="font-bold px-4 flex justify-start items-center gap-1">
+        <span className="animate-pulse uppercase">(+18)</span>
+        {serie.title}
         <Link
           href={`/series/${encodeURIComponent(serie.title)}`}
           as={`/series/${encodeURIComponent(serie.title)}`}
@@ -21,7 +22,7 @@ const SerieComponent: React.FC<SerieComponentProps> = ({ serie }) => {
           ver todos <MdArrowOutward size={10} />
         </Link>
       </h2>
-      <div className="flex gap-4 w-full flex-wrap">
+      <div className="flex justify-center gap-4 w-full flex-wrap">
         {serie.videos.map((video, index) => (
           <div key={index}>
             <YouTubeEmbed videoId={video.videoId} title={video.title} />
