@@ -14,7 +14,7 @@ export const seriesData: Serie[] = [
     id: '1',
     title: 'RIO CHORE',
     videos: [
-      { videoId: 'rmZlzQJDLL8', title: 'Episódio 1' },
+      { videoId: 'vTxqJVi56UI', title: 'Temporada 1' },
       { videoId: 'rmZlzQJDLL8', title: 'Episódio 2' },
       { videoId: 'rmZlzQJDLL8', title: 'Episódio 3' },
       { videoId: 'uSAE3xSzrEQ', title: 'Episódio 4' },
