@@ -17,6 +17,8 @@
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "react-slick": "^0.29.0",
+    "react-twitch-embed": "^3.0.2",
+    "react-twitch-embed-video": "^3.0.3",
     "slick-carousel": "^1.8.1",
     "slugify": "^1.6.6"
   },

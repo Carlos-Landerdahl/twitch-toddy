@@ -1,5 +1,5 @@
 import React from 'react'
-import YouTubeEmbed from '../home/youtubeEmbed'
+import YouTubeEmbed from '../utils/youtube-embed'
 import { Video } from '@/data/series'
 
 interface EpisodesListProps {

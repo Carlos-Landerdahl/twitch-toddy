@@ -1,5 +1,5 @@
 import React from 'react'
-import YouTubeEmbed from '../home/youtubeEmbed'
+import YouTubeEmbed from '../utils/youtube-embed'
 import Link from 'next/link'
 import { MdArrowOutward } from 'react-icons/md'
 import { Serie } from '@/data/series'
