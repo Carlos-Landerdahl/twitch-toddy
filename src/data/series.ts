@@ -12,7 +12,7 @@ export interface Serie {
 export const seriesData: Serie[] = [
   {
     id: '1',
-    title: 'RIO CHORE',
+    title: 'RIO SHORE',
     videos: [
       { videoId: 'vTxqJVi56UI', title: 'Temporada 1' },
       { videoId: 'rmZlzQJDLL8', title: 'Episódio 2' },
