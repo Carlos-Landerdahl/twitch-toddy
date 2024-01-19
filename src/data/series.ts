@@ -12,22 +12,36 @@ export interface Serie {
 export const seriesData: Serie[] = [
   {
     id: '1',
-    title: 'RIO SHORE',
+    title: 'Lives',
     videos: [
-      { videoId: 'vTxqJVi56UI', title: 'Temporada 1' },
-      { videoId: 'rmZlzQJDLL8', title: 'Episódio 2' },
-      { videoId: 'rmZlzQJDLL8', title: 'Episódio 3' },
-      { videoId: 'uSAE3xSzrEQ', title: 'Episódio 4' },
-    ],
-  },
-  {
-    id: '2',
-    title: 'FÉRIAS COM O EX',
-    videos: [
-      { videoId: 'K8too_LSCzM', title: 'Episódio 1' },
-      { videoId: 'ltn_EXQttro', title: 'Episódio 2' },
-      { videoId: 'ltn_EXQttro', title: 'Episódio 3' },
-      { videoId: 'ltn_EXQttro', title: 'Episódio 4' },
+      {
+        videoId: '1uLGPJSb3t7esAdZylCS2cMwaIdtL1N7L',
+        title: 'Live - 13/01/24',
+      },
+      {
+        videoId: '1u0AxkCkZFS6LvcQaMDse2ZZ7U9CHJvPE',
+        title: 'Live - 15/01/24',
+      },
+      {
+        videoId: '1rqE2WM1WV70wk_MIcMzHoWZMgTCyIEJ3',
+        title: 'Live - 16/01/24',
+      },
+      {
+        videoId: '1Y6EgIi5qD8j_FgjjaroBhsZsXgxAfhes',
+        title: 'Live - 17/01/24',
+      },
+      {
+        videoId: '1C2OOqWKjJZUZzajbwKbmQE9W7yUI24De',
+        title: 'Live - 18/01/24',
+      },
+      {
+        videoId: '1UQ5VQfGWAB36n_up-8Pt669phJFtXGRV',
+        title: 'Live - 19/01/24 PARTE 1',
+      },
+      {
+        videoId: '1K8QkdmHipdh8zF9cb29XNmDzZdZxjfyt',
+        title: 'Live - 19/01/24 PARTE 2',
+      },
     ],
   },
 ]

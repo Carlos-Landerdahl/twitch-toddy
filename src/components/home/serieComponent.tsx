@@ -1,5 +1,5 @@
 import React from 'react'
-import YouTubeEmbed from '../utils/youtube-embed'
+import IFrameEmbed from '../utils/iframe-embed'
 import Link from 'next/link'
 import { MdArrowOutward } from 'react-icons/md'
 import { Serie } from '@/data/series'
@@ -22,10 +22,10 @@ const SerieComponent: React.FC<SerieComponentProps> = ({ serie }) => {
           ver todos <MdArrowOutward size={10} />
         </Link>
       </h2>
-      <div className="flex justify-center gap-4 w-full flex-wrap">
+      <div className="flex justify-center gap-4 w-full flex-wrap md:justify-start">
         {serie.videos.map((video, index) => (
           <div key={index}>
-            <YouTubeEmbed videoId={video.videoId} title={video.title} />
+            <IFrameEmbed videoId={video.videoId} title={video.title} />
           </div>
         ))}
       </div>
