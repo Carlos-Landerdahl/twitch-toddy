@@ -42,6 +42,14 @@ export const seriesData: Serie[] = [
         videoId: '1K8QkdmHipdh8zF9cb29XNmDzZdZxjfyt',
         title: 'Live - 19/01/24 PARTE 2',
       },
+      {
+        videoId: '1v-KcMcW8AdbeaaUwZV8uHrLcQk2VT5Sm',
+        title: 'Live - 22/01/24',
+      },
+      {
+        videoId: '1vb554EbPN4qIiMj51h2UgXiDMEWQiyGA',
+        title: 'Live - 23/01/24',
+      },
     ],
   },
 ]
