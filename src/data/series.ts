@@ -50,6 +50,10 @@ export const seriesData: Serie[] = [
         videoId: '1vb554EbPN4qIiMj51h2UgXiDMEWQiyGA',
         title: 'Live - 23/01/24',
       },
+      {
+        videoId: '1HUEnhI9sA0v9L7W31ObWKN1G7CxLJlr',
+        title: 'Live - 24/01/24',
+      },
     ],
   },
 ]
