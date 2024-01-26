@@ -51,8 +51,12 @@ export const seriesData: Serie[] = [
         title: 'Live - 23/01/24',
       },
       {
-        videoId: '1HUEnhI9sA0v9L7W31ObWKN1G7CxLJlr',
+        videoId: '1HUEn_hI9sA0v9L7W31ObWKN1G7CxLJlr',
         title: 'Live - 24/01/24',
+      },
+      {
+        videoId: '1G7lXqWQgAuxukKx9Vu9e_jaS0lBfk96n',
+        title: 'Live - 25/01/24',
       },
     ],
   },
