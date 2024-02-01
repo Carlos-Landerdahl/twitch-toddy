@@ -8,7 +8,7 @@ interface EpisodesListProps {
 
 const EpisodesList: React.FC<EpisodesListProps> = ({ videos }) => {
   return (
-    <div className="flex gap-6 items-center flex-wrap">
+    <div className="flex gap-6 items-center justify-center flex-wrap">
       {videos.map((video, index) => (
         <div key={index} className="">
           <IFrameEmbed videoId={video.videoId} title={video.title} />

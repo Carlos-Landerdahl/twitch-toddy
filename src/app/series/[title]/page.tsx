@@ -18,8 +18,8 @@ const SeriesPage: React.FC<SeriesPageProps> = ({ params }) => {
   const selectedSerie = seriesData.find((serie) => serie.title === decodedTitle)
 
   return (
-    <div className="bg-bg text-white p-4 px-7 md:h-screen">
-      <div className="max-w-7xl m-auto mt-[70px]">
+    <div className="bg-bg text-white p-4 px-7">
+      <div className="max-w-7xl mt-[70px] flex flex-col justify-center m-auto">
         <h1 className="font-bold text-2xl">{selectedSerie?.title} 🔥</h1>
         {selectedSerie ? (
           <EpisodesList videos={selectedSerie.videos} />
