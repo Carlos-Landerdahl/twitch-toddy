@@ -58,6 +58,14 @@ export const seriesData: Serie[] = [
         videoId: '1G7lXqWQgAuxukKx9Vu9e_jaS0lBfk96n',
         title: 'Live - 25/01/24',
       },
+      {
+        videoId: '1M1scolyCdlNxunCPPrR-btLkLxZlU6ce',
+        title: 'Live - 29/01/24',
+      },
+      {
+        videoId: '1r9EgieyZ3c5xQ9IW14cUnvUtnn_T_Ayf',
+        title: 'Live - 30/01/24',
+      },
     ],
   },
 ]
