@@ -70,6 +70,26 @@ export const seriesData: Serie[] = [
         videoId: '1yjNTuyZGr3SDIh5rh9XwNL2VTJkr-Q75',
         title: 'Live - 01/02/24',
       },
+      {
+        videoId: '1rhmX61SC8_DrjAVqj-LlhdP2piUymvkD',
+        title: 'Live - 02/02/24 PARTE 1',
+      },
+      {
+        videoId: '1LEwt5qdRT0LgLdk-euijm-GJiKtm-DXb',
+        title: 'Live - 02/02/24 PARTE 2',
+      },
+      {
+        videoId: '1saAtFai8ltNc3uJ77aRNwVLrjlru2QuB',
+        title: 'Live - 03/02/24',
+      },
+      {
+        videoId: '1Gqi7TTQ2aIRNWOVER8RGcwWj-qTRfltt',
+        title: 'Live - 06/02/24 PARTE 1',
+      },
+      {
+        videoId: '1hSznA_CQw-quGnQs1qDiKzK3SLns-pgv',
+        title: 'Live - 06/02/24 PARTE 2',
+      },
     ],
   },
 ]
