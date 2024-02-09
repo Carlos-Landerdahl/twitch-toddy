@@ -90,6 +90,14 @@ export const seriesData: Serie[] = [
         videoId: '1hSznA_CQw-quGnQs1qDiKzK3SLns-pgv',
         title: 'Live - 06/02/24 PARTE 2',
       },
+      {
+        videoId: '1-aVbZ6BEiCMwofuUa-6dVo6UdaMZXoWj',
+        title: 'Live - 07/02/24',
+      },
+      {
+        videoId: '1637V9jRE36v8ll7WvNt3RBu7DyetEX93',
+        title: 'Live - 08/02/24',
+      },
     ],
   },
 ]
