@@ -10,7 +10,7 @@ interface SeriesPageProps {
   params: PageParams
 }
 
-const SeriesPage: React.FC<SeriesPageProps> = ({ params }) => {
+export default function SeriesPage({ params }: SeriesPageProps) {
   const { title } = params
 
   const decodedTitle = decodeURIComponent(title)
@@ -30,5 +30,3 @@ const SeriesPage: React.FC<SeriesPageProps> = ({ params }) => {
     </div>
   )
 }
-
-export default SeriesPage

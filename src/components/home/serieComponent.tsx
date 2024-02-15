@@ -8,7 +8,7 @@ interface SerieComponentProps {
   serie: Serie
 }
 
-const SerieComponent: React.FC<SerieComponentProps> = ({ serie }) => {
+export default function SerieComponent({ serie }: SerieComponentProps) {
   return (
     <div>
       <h2 className="font-bold px-4 flex justify-start items-center gap-1">
@@ -32,5 +32,3 @@ const SerieComponent: React.FC<SerieComponentProps> = ({ serie }) => {
     </div>
   )
 }
-
-export default SerieComponent

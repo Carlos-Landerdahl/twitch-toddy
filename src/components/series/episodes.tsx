@@ -6,7 +6,7 @@ interface EpisodesListProps {
   videos: Video[]
 }
 
-const EpisodesList: React.FC<EpisodesListProps> = ({ videos }) => {
+export default function EpisodesList({ videos }: EpisodesListProps) {
   return (
     <div className="flex gap-6 items-center justify-center flex-wrap">
       {videos.map((video, index) => (
@@ -17,5 +17,3 @@ const EpisodesList: React.FC<EpisodesListProps> = ({ videos }) => {
     </div>
   )
 }
-
-export default EpisodesList

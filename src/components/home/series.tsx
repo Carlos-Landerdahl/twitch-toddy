@@ -1,6 +1,3 @@
-'use client'
-
-import React, { useEffect, useState } from 'react'
 import { MdMovieCreation } from 'react-icons/md'
 import SerieComponent from './serieComponent'
 import { Spinner } from '@nextui-org/react'
@@ -20,17 +17,7 @@ interface SeriesProps {
   series: Serie[]
 }
 
-function Series({ series }: SeriesProps) {
-  const [loading, setLoading] = useState(true)
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setLoading(false)
-    }, 1000)
-
-    return () => clearTimeout(timeout)
-  }, [])
-
+export default function Series({ series }: SeriesProps) {
   return (
     <div className="flex flex-col mt-10 gap-10">
       <h1 className="text-2xl font-bold text-white flex items-center gap-2">
@@ -38,7 +25,7 @@ function Series({ series }: SeriesProps) {
         <MdMovieCreation size={20} className="text-icons" />
       </h1>
 
-      {loading ? (
+      {!series ? (
         <div className="flex items-top gap-2 m-auto h-dvh">
           <span className="animate-pulse text-2xl font-bold">
             TodynnPJL
@@ -55,5 +42,3 @@ function Series({ series }: SeriesProps) {
     </div>
   )
 }
-
-export default Series
